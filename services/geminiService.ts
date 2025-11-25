@@ -3,7 +3,7 @@ import { TouristResource, Coordinates } from "../types";
 
 // Helper to safely get the API key
 const getApiKey = (): string => {
-  const key = process.env.API_KEY || "AIzaSyCveGF6UNXc7WXy4A4tN2NO-sJysAxPjIk";
+  const key = process.env.API_KEY || "gemini_api_key";
   if (!key) {
     console.error("API_KEY not found in environment variables.");
     return "";
