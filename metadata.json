@@ -1,0 +1,7 @@
+{
+  "name": "Copy of turMap",
+  "description": "Intelligent tourism resource explorer summarizing reviews and providing travel insights using Gemini AI and Google Maps.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
